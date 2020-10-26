@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.container-flex{
+    background: #000;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.item-flex{
+    width: 25%;
+    flex-grow: 1;
+    border: 3px solid #000;
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 20px;
+    margin: 10px;
+    background-color: #a86d15;
+}
